@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-image: url(assets/images/bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 80vh;
+    width: 100%;
+    position: relative;
+}
+
+.box {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0 , 0.8);
+    position: absolute;
+}
+
+nav {
+    height: 80px;
+    display: flex;
+    max-width: 60vw;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img {
+    width: 148px;
+    position: relative;
+}
+
+.btn1 {
+    height: 32px;
+    width: 124px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.btn2 {
+    height: 32px;
+    width: 72px;
+    background-color: rgb(255, 0, 0);
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-left: 15px;
+}
+
