@@ -130,17 +130,17 @@ nav img {
 
 
 .curve-line {
-  position: absolute;
-  top: 730px;
-  left: 0;
-  width: 100%;
-  z-index: 1;
+    position: absolute; 
+    width: 100%; 
+    display: flex;
+    bottom: 0;   
+    z-index: 1;              
 }
 
 .content {
-  position: absolute;
-  height: 1000px;
-  width: 100%;
-  background-color: black;
-  z-index: 0;
-} 
+    background-color: black;
+    height: 500px;     
+    width: 100%;
+    position: absolute;
+    z-index: 0;        
+}
