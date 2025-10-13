@@ -137,10 +137,17 @@ nav img {
     z-index: 1;              
 }
 
-.content {
-    background-color: black;
-    height: 500px;     
-    width: 100%;
-    position: absolute;
-    z-index: 0;        
+.trend {
+  height: 50px;
+  width: 600px;
+  position: absolute;
+  top: 70px;
+  margin-left: 25px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.container {
+  height: 1000px;
+  background-color: black;
 }
