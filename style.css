@@ -10,7 +10,7 @@
   background-repeat: no-repeat;
   background-size: max(1200px, 100vw);
   background-size: cover;   
-  height: 130vh;
+  height: 120vh;
   width: 100%;
   position: relative;
 }
@@ -107,13 +107,13 @@ nav img {
   background-color: rgba(255, 255, 255, 0.05);
   padding-left: 12px;
   color: #ffffff;
+  font-size: 15px;
 }
 
 .enter-email input::placeholder {
-    color: white;
-    font-size: 0.8rem;
     margin-left: 10px;
-    opacity: 1;          
+    opacity: 1;    
+    font-size: medium;     
 }
 
 
@@ -133,7 +133,7 @@ nav img {
     position: absolute; 
     width: 100%; 
     display: flex;
-    bottom: 0;   
+    bottom: 0px;   
     z-index: 1;              
 }
 
@@ -147,7 +147,27 @@ nav img {
   font-weight: 600;
 }
 
-.container {
+/* .main-container {
   height: 1000px;
   background-color: black;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
 }
+
+.boxes {
+  background-color: blueviolet;
+  height: 200px;
+  gap: 5px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.child {
+  background-color: palevioletred;
+  height: 200px;
+  width: 100px;
+} */
