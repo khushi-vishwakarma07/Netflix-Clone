@@ -1,75 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix India - Watch TV Shows Online, Watch Movies Online</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Netflix India - Watch TV Shows Online, Watch Movies Online</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-
-    <div class="main">
-        <div class="box">
-            <div class="cover">
-            <nav>
-                <span><img src="assets/images/logo.svg" class="logo"></span>
-                    <div>
-                        <button class="btn1">English</button>
-                        <button class="btn2 btn-red-sm">Sign In</button>
-                    </div>
-            </nav>
-            </div>
-            <div class="hero">
-                <div class="headings">
-                    <h1 class="first-heading">
-                        <span>Unlimited movies, TV</span>
-                        <span>shows and more</span>
-                    </h1>
-                    <h2>Starts at ₹149. Cancel at any time.</h2>
-                </div>
-                <span>Ready to watch? Enter your email to create or restart your membership.</span>
-                <div class="enter-email">
-                <input type="text" placeholder="Eail Address">
-                <button>Get Started</button>
-                </div>
-            </div>
-                <div class="curve-line" style="color: white;">
-                     <img src="assets/images/curve.svg" alt="Curve" style="width:100%; height:100px;">
-
-                    <div class="trend">
-                        <span>Trending Now</span>
-                    </div>
-                </div>
+  <!-- MAIN HERO SECTION -->
+  <section class="main">
+    <div class="overlay">
+      <nav>
+        <img src="assets/images/logo.svg" class="logo" alt="Netflix Logo" />
+        <div class="nav-buttons">
+          <button class="btn btn-lang">English</button>
+          <button class="btn btn-red">Sign In</button>
         </div>
+      </nav>
+
+      <div class="hero">
+        <h1>
+          <span>Unlimited movies, TV</span>
+          <span>shows and more</span>
+        </h1>
+        <h2>Starts at ₹149. Cancel at any time.</h2>
+        <p>Ready to watch? Enter your email to create or restart your membership.</p>
+        <div class="email-box">
+          <input type="text" placeholder="Email Address" />
+          <button class="btn btn-red">Get Started</button>
+        </div>
+      </div>
     </div>
 
-    <div class="main-container">
-        <div class="scrollbar">
-            <button class="scroll-btn left">&lt;</button>
-                <div class="scroll-container">
-                    <div class="boxes">
-                        <div class="child" style="background-image: url(assets/images/pic1.webp);">1</div>
-                        <div class="child" style="background-image: url(assets/images/pic2.webp);">2</div>
-                        <div class="child" style="background-image: url(assets/images/pic3.webp);">3</div>
-                        <div class="child" style="background-image: url(assets/images/pic4.webp);">4</div>
-                        <div class="child" style="background-image: url(assets/images/pic5.webp);">5</div>
-                        <div class="child" style="background-image: url(assets/images/pic6.webp);">6</div>
-                        <div class="child" style="background-image: url(assets/images/pic7.webp);">7</div>
-                        <div class="child" style="background-image: url(assets/images/pic8.webp);">8</div>
-                        <div class="child" style="background-image: url(assets/images/pic9.webp);">9</div>
-                        <div class="child" style="background-image: url(assets/images/pic10.webp);">10</div>
-                    </div>
-                </div>
-            <button class="scroll-btn right">&gt;</button>
-        </div>
+    <div class="curve">
+      <img src="assets/images/curve.svg" alt="Curve" />
+      <h3>Trending Now</h3>
     </div>
+  </section>
 
-    <footer>
-        <div class="foot"></div>
-    </footer>
+  <!-- TRENDING SECTION -->
+  <section class="trending">
+    <div class="scrollbar">
+      <button class="scroll-btn left">&lt;</button>
 
-    <script src="script.js"></script>
+      <div class="scroll-container">
+        <div class="boxes">
+          <div class="child" style="background-image: url(assets/images/pic1.webp);">1</div>
+          <div class="child" style="background-image: url(assets/images/pic2.webp);">2</div>
+          <div class="child" style="background-image: url(assets/images/pic3.webp);">3</div>
+          <div class="child" style="background-image: url(assets/images/pic4.webp);">4</div>
+          <div class="child" style="background-image: url(assets/images/pic5.webp);">5</div>
+          <div class="child" style="background-image: url(assets/images/pic6.webp);">6</div>
+          <div class="child" style="background-image: url(assets/images/pic7.webp);">7</div>
+          <div class="child" style="background-image: url(assets/images/pic8.webp);">8</div>
+          <div class="child" style="background-image: url(assets/images/pic9.webp);">9</div>
+          <div class="child" style="background-image: url(assets/images/pic10.webp);">10</div>
+        </div>
+      </div>
+
+      <button class="scroll-btn right">&gt;</button>
+    </div>
+  </section>
+
+  <!-- REASONS TO JOIN -->
+  <section class="reasons">
+    <div class="join-box">
+      <div class="child2">1</div>
+      <div class="child2">2</div>
+      <div class="child2">3</div>
+      <div class="child2">4</div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="foot">Netflix India © 2025</div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
